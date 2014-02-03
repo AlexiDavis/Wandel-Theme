@@ -1,22 +1,24 @@
-Project: Wandel Tumblr Theme
-Author: Alexi Davis
-URL: http://alexidavis.com
-Version: 1.3
-Last Updated: 02/02/14
+### Project: Wandel Tumblr Theme
+### Author: Alexi Davis
+### URL: http://alexidavis.com
+### Version: 1.3
+### Last Updated: 02/02/14
+
 -----------------------
 
-Description:
+### Description:
 	A responsive Tumblr theme in five color schemes.
 	(One-column on smaller screens, two-column right sidebar on larger screens.)
 
-Uses: JavaScript; jQuery 1.10.1; jQuery UI 1.10.3;
-		Google Fonts: Raleway, Armata, "Denk One", Monda
+### Uses:
+	JavaScript; jQuery 1.10.1; jQuery UI 1.10.3;
+	Google Fonts: Raleway, Armata, "Denk One", Monda
 		
-Requires:
+### Requires:
 - Tumblr account
 - access to "Customize" pane (as of 02/02/14, this cannot be done via mobile or tablet devices)
 
-How to Use:
+### How to Use:
 1. On the Tumblr dashboard, click "Customize" in the sidebar
 	(or, click the gear icon at the top of the page, and then click "Edit theme" under "Website Theme").
 2. In the side panel it will list what theme you are currently using. Select "Edit HTML >".
@@ -27,7 +29,7 @@ How to Use:
 7. You'll now see a box under the Title and Description boxes, with a heading reading "Appearance",
 	that will allow you to select which color scheme you'd like. The options are: Blue, Grey, Pink, Purple, and Red
 
-If you'd like to make use of the mobile responsive options, there's one more thing you'll need to do:
+### If you'd like to make use of the mobile responsive options, there's one more thing you'll need to do:
 1. Click "Advanced Options" at the bottom of the side panel.
 2. Find the option that says, "Use optimized mobile layout" and switch it off.
 	(This allows the theme to respond via media queries as it's built to, rather than displaying
