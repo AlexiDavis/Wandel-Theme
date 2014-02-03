@@ -1,0 +1,81 @@
+/** Reset & Main **/
+*{margin:0;padding:0;font-size:100%;}
+@viewport{zoom:1.0;width:extend-to-zoom;}
+html{margin-bottom:2%;}
+.pc{width:90%;margin:2% auto;position:relative;}
+.mobile{width:420px;margin:2% auto;position:relative;text-align:left;}
+p{font-size:100%;font-family:Verdana,sans-serif;padding:1em;}
+input{padding:1em;}
+.mobile p,.mobile ul,.mobile ol{font-size:150%;font-family:Raleway,Verdana,sans-serif;padding:.75em 1em;}
+h6{font-size:.9em;font-family:Monda,Armata,Georgia,serif;padding:.625em;}
+h5{font-size:1em;font-family:Armata,Georgia,serif;padding:.625em;}
+h4{font-size:1.5em;font-family:Armata,Georgia,serif;padding:.625em;}
+h3{font-size:2em;font-family:Armata,Georgia,serif;padding:.5em;}
+h2{font-size:2.5em;font-family:'Denk One',Armata,Georgia,serif;padding:.375em;}
+h1{font-size:3em;font-family:Armata,Georgia,serif;padding:.25em;}
+
+.pc .left{float:left;}
+.pc .right{float:right;}
+
+blockquote{padding:1em;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;margin:1em;position:relative;}
+.mobile blockquote{padding:0em;margin:0em;}
+.cited, .question{padding-bottom:3.5em;}
+.mobile .cited{padding-bottom:4em;}
+blockquote cite{padding:1em;position:absolute;bottom:0;right:0;-webkit-border-bottom-right-radius:20px;-moz-border-radius-bottomright:20px;border-bottom-right-radius:20px;text-align:right;}
+cite:before{content:"- ";}
+.mobile blockquote cite{left:0;-webkit-border-bottom-left-radius:20px;-moz-border-radius-bottomleft:20px;border-bottom-left-radius:20px;}
+@media all and (max-width: 500px) {
+.pc blockquote cite{left:0;-webkit-border-bottom-left-radius:20px;-moz-border-radius-bottomleft:20px;border-bottom-left-radius:20px;}
+}
+blockquote blockquote{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;background:rgba(15,15,15,.3);}
+.reblog{border-top:0px;-webkit-border-top-left-radius:0px;-webkit-border-top-right-radius:0px;-moz-border-radius-topleft:0px;-moz-border-radius-topright:0px;border-top-left-radius:0px;border-top-right-radius:0px;margin-top:-.5em;}
+
+article ul,aside ul{list-style:square inside;font-size:100%;font-family:Verdana,sans-serif;padding:1em;}
+article ol,aside ol{list-style:decimal inside;font-size:100%;font-family:Verdana,sans-serif;padding:1em;}
+
+nav{padding:1em 0em;margin-bottom:1em;}
+.pc nav ul{list-style:none;font-family:'Denk One',Armata,Georgia,serif;}
+.pc nav li{display:inline;padding:1em;font-size:1.25em;}
+.pc nav form{display:none;}
+
+.mobile nav ul{display:none;}
+.mobile nav select{display:block;margin:0 auto;width:90%;font-family:'Denk One',Armata,Georgia,serif;font-size:2em;line-height:2.5em;}
+
+@media all and (min-width: 1000px) {
+.pc aside{float:right;width:25%;position:fixed;top:5%;right:5%;max-height:45em;overflow-x:auto;}
+.pc article{float:left;width:69%;}
+.pc section{padding:1em;}
+.pc footer div{width:44%;}
+.pc footer .pagination{display:none;}
+.pc .footleft{float:left;}
+.pc .footright{float:right;}
+}
+
+.mobile article,.mobile section{padding:0;margin:0;}
+aside .userpic{float:right;padding:1.5em;}
+aside img{max-width:150px;text-align:center;}
+.mobile img, .mobile iframe{max-width:420px;}
+.pc img{max-width:600px;}
+section{clear:both;}
+
+footer{clear:both;width:100%;height:100%;}
+footer div{line-height:2.5em;padding:0 2em;margin-bottom:2%;text-align:center;}
+
+/** Post Styles */
+#the_posts{list-style:none;margin:0;padding:0;}
+ #the_posts>li{margin:0;padding:0;}
+/*.post{padding:50px;}*/
+.post-body ol{list-style:inside decimal;padding:10px 0;}
+.post-body ul{list-style:inside square;padding:10px 0;}
+ul.chat{list-style:none;padding-left:15px;}
+.question, .quote{position:relative;}
+/*.question .asker{position:absolute;bottom:0;right:0;padding:5px 15px;line-height:32px;}*/
+.post-meta{background:rgba(34, 34, 34, 0.35);border-bottom-left-radius:20px;border-bottom-right-radius:20px;padding:1% 1em 1em;margin:1em 0;border-top:1px solid #111;}
+/*.post-meta h5{padding:0 auto;margin:10px auto;}*/
+.mobile .post-meta .tags a{display:block;}
+.pc .post-meta .tags a:after{content:",";}
+.caption{padding:1em}
+/*.quote-post .caption{float:right;}*/
+.notes{list-style:inside decimal;}
+.note{padding:1em 0 1em 1em;margin:.5em 0;}
+.with_commentary{background:rgba(15,15,15,.3);}

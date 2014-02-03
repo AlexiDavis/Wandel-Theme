@@ -1,0 +1,21 @@
+/** Colors */
+html{background:#5D2680;}
+body{color:#fdf;}
+/*.mobile{background:#bbe;color:#333;}*/
+.pc h1,.pc h2,.pc h3,.pc h4,.pc h5,.pc h6{text-shadow:#111 .075em .075em .2em;}
+
+a:link{color:#eee;}
+a:visited{color:#ffc;}
+a:hover,a:visited:hover,a:focus,a:visited:focus{color:#999;}
+
+/*.mobile nav select{background:#444;color:#EE9;text-shadow:.1em .1em .15em #120;}*/
+
+blockquote{border:2px solid #000;}
+blockquote cite{background:#000;color:#fdf;}
+
+article{border-top:1px #111 solid;border-bottom:1px #444 solid;}
+body > article:first-child{border-top:0px;}
+body > article:last-child{border-bottom:0px;}
+
+aside{background:#45036F;color:#fdf;}
+footer div{background:#45036F;color:#fdf;}

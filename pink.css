@@ -1,0 +1,19 @@
+/** Colors */
+html{background:#A60046;}
+body{color:#eee;}
+.pc h1,.pc h2,.pc h3,.pc h4,.pc h5,.pc h6{text-shadow:#111 .075em .075em .2em;}
+
+a:link{color:#eee;}
+a:visited{color:#ffc;}
+a:hover,a:visited:hover,a:focus,a:visited:focus{color:#999;}
+
+header, nav{background:#A60046;}
+
+blockquote{border:2px solid #000;}
+blockquote cite{background:#000;color:#aaa;}
+
+article{border-top:1px #111 solid;border-bottom:1px #444 solid;background:#A60046;}
+body > article:first-child{border-top:0;}
+body > article:last-child{border-bottom:0;}
+
+aside, footer div{background:#FF006B;color:#fff;}
