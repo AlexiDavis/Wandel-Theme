@@ -15,6 +15,7 @@
 ### Uses:
 	JavaScript; jQuery 1.10.1; jQuery UI 1.10.3;
 		Google Fonts: Raleway, Armata, "Denk One", Monda
+		Mobile navigation inspired by Chris Coyier's post: http://css-tricks.com/convert-menu-to-dropdown/
 		
 ### Requires:
 - Tumblr account
